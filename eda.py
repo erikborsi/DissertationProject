@@ -17,15 +17,9 @@ def printTheWholeDataFrame(dataframe):
     print(dataframe)
 
 
-# printTheWholeDataFrame(vgs_df)
-
-
 # Print out the head of the DataFrame with the head() method
 def printTheHeadOfTheDataFrame(dataframe, quantity):
     print(dataframe.head(quantity))
-
-
-# printTheHeadOfTheDataFrame(vgs_df, 10)
 
 
 # Print out the end of the DataFrame with the tail() method
@@ -33,23 +27,14 @@ def printTheEndOfTheDataFrame(dataframe, quantity):
     print(dataframe.tail(quantity))
 
 
-# printTheEndOfTheDataFrame(vgs_df, 10)
-
-
 # Print out the info of the DataFrame with the info() method
 def printTheInfoOfTheDataFrame(dataframe):
     dataframe.info()
 
 
-# printTheInfoOfTheDataFrame(vgs_df)
-
-
 # Print out the description of the DataFrame with the describe() method
 def printTheDescriptionOfTheDataFrame(dataframe):
     print(dataframe.describe())
-
-
-# printTheDescriptionOfTheDataFrame(vgs_df)
 
 
 # Print the percentile for the Japanese sales
@@ -61,4 +46,9 @@ def JapaneseSalesDataTest(dataframe):
     print(percentile63)
 
 
+# printTheWholeDataFrame(vgs_df)
+# printTheHeadOfTheDataFrame(vgs_df, 10)
+# printTheEndOfTheDataFrame(vgs_df, 10)
+# printTheInfoOfTheDataFrame(vgs_df)
+# printTheDescriptionOfTheDataFrame(vgs_df)
 # JapaneseSalesDataTest(vgs_df)
